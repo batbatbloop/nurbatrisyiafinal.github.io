@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="navigationbar.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  top:60px;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+</style>
+</head>
+
+<body>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a class="active" href="activities.html">Things To Do at Night</a></li>
+  <li><a href="dayactivities.html">Things To Do in the Day</a></li>
+  <li><a href="location.html">Getting There</a></li>
+</ul>
+
+<video autoplay muted loop id="myVideo">
+  <source src="media/video.mp4" type="video/mp4">
+</video>
+
+<div class="content">
+  <h1 style="font-family:arial rounded mt bold;">Pang Sua Pond: Night View</h1>
+  <p>At night, the lights on the boardwalk sets a romantic mood for a <span style="color: #FFC0CB">slow walk under the moonlight</span>. There are even spots along the boardwalk where small pavillion-like shelters and seats are available for a small <span style="color: #FFC0CB">late-night picnic</span> for couples or friends. Also, since Bukit Panjang Plaza is literally across the road, you don't have to go far to get your picnic snacks. Alternatively, there's a bubbletea shop at the Community Centre right next to the pond.</p>
+  <p>Sometimes, there are events held at the stage by the pond (as seen in the video) which you can watch for free! The community centre sometimes holds <span style="color: #FFC0CB">movie nights or karaoke nights</span> there.</p>
+
+  <button id="myBtn" onclick="myFunction()">Pause</button>
+</div>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+</body>
+</html>

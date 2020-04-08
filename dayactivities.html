@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="navigationbar.css">
+<style>
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+#bird { 
+  position:fixed;right:1px;top:300px;
+
+</style>
+
+</head>
+
+<body>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="activities.html">Things To Do at Night</a></li>
+  <li><a class="active" href="dayactivities.html">Things To Do in the Day</a></li>
+  <li><a href="location.html">Getting There</a></li>
+</ul>
+
+<div id="top" style="padding:37px;margin-top:37px;background-color:#FFFAFA;height:2100px;">
+<h1 style="font-family:arial rounded mt bold;font-size:42px;padding-left:400px;">Things To Do in the Day</h1>
+<h2 style="font-family:arial rounded mt bold;padding-left:45px;">Keep Fit!</h2>
+<p style="font-family:arial; padding-right:160px;padding-left:45px;">Pang Sua Pond is just right for a nice jog, walk, or cycle as it is connected to two Park Connectors - <a href="https://www.nparks.gov.sg/gardens-parks-and-nature/park-connector-network/pang-sua-pc" target="_blank" class="tooltip">Pang Sua PC<span class="tooltiptext">Click here for the route!</span></a> (6.0km long), and <a href="https://www.nparks.gov.sg/gardens-parks-and-nature/park-connector-network/bukit-panjang-pc" target="_blank" class="tooltip">Bukit Panjang PC<span class="tooltiptext">Click here for the route!</span></a> (1.4km long).</p>
+
+<p style="font-family:arial; padding-right:160px;padding-left:45px;">Even older people enjoy exercising at Pang Sua Pond. As early as 6.30am, you will be able to hear dance music by the Pang Sua Pond as people dance together to keep fit. The video below shows you exactly what I mean! &#128540</p>
+
+<iframe width="560" height="315" style="padding-left:45px" src="https://www.youtube.com/embed/jIyXCWqMDtE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2 style="font-family:arial rounded mt bold;padding-left:45px;">Animal Watch!</h2>
+<p style="font-family:arial; padding-right:160px;padding-left:45px;">Because it is regularly cleaned, Pang Sua Pond is home to <strong>many</strong> <span style="color:#1E90FF">terrapins and fish</span>! In fact, I think there are easily over 100 terrapins! There is no "No Feeding" sign so people come and feed them bread quite often. Usually, if you come early enough at between 7 to 8 am, there will be <span style="color:#1E90FF">flocks of birds</span> that fly around the pond and swoop down to the pond (just like the ones in the gif on this page) to catch tiny fish! Occasionally, you can spot a <span style="color:#1E90FF">monitor lizard</span>. I even saw one shedding its skin! Sometimes, if you're lucky, you will see a family of <span style="color:#1E90FF">otters</span> hanging out at Pang Sua Pond. Such a diverse group of fauna to see here!</p>
+
+<iframe width="560" height="350" style="padding-left:45px" src="https://www.youtube.com/embed/9765ZQR9vfM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video height="350" autoplay muted loop id="myVideo">
+  <source src="media/terrapin.mp4" type="video/mp4">
+</video>
+<figcaption style="font-family:arial;padding-left:640px;font-size:11px"> Yes, those are terrapins!!!</figcaption>
+
+
+<h2 style="font-family:arial rounded mt bold;padding-left:45px;">Photo Shoot!</h2>
+<p style="font-family:arial; padding-right:160px;padding-left:45px;">Pang Sua Pond is so Instagram-worthy, don't miss a chance to take some nice photos here. Many couples do their wedding photos here and it can be very convenient compared to other parks because of how close to public transport and neighbourhood amenities it is. If you need to touch up your make up or run to shelter to protect your rented gown from the rain, you can easily do that at Pang Sua Pond since it's right next to the Senja-Cashew Community Centre.</p>
+
+<p style="font-family:arial; padding-right:160px;padding-left:45px;">Otherwise, taking photos of the view is also soemthing fun you can do. Catch the sunrise or sunset and see how the water reflects the beautiful sky (remember the photo at the <a href="index.html">Home page</a>?) Here are more photos by yours truly of the majestic view at Pang Sua Pond early in the morning.</p>
+<img src="media/sunrise.jpg" width=40% height=40%>
+<img src="media/daylight.jpg" width=40% height=40%>
+
+
+
+<img id="bird" title="source:https://media.giphy.com/media/hcrfSTtvl93cA/source.gif" src="media/birds.gif">
+
+
+</body>
+
+</html>

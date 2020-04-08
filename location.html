@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="navigationbar.css">
+<style>
+
+.center {
+  display: block;
+  margin-left: 45px;
+  margin-right: auto;
+  width: 50%;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+#mycat {
+  position:fixed;right:30px;bottom:2px;
+
+</style>
+
+</head>
+
+<body>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="activities.html">Things To Do at Night</a></li>
+  <li><a href="dayactivities.html">Things To Do in the Day</a></li>
+  <li><a class="active" href="location.html">Getting There</a></li>
+</ul>
+
+<div id="top" style="padding:37px;margin-top:37px;background-color:#FFFAFA;height:1450px;">
+<h1 style="font-family:arial rounded mt bold;font-size:42px;padding-left:400px;">How To Get There</h1>
+<h2 style="font-family:arial rounded mt bold;padding-left:45px;">By Bus &#128652</h2>
+<p style="font-family:arial; padding-right:160px;padding-left:45px;">The nearest bus stop is "Opp Lompang Rd" Bus Stop ID: 44241. It stops exactly where Pang Sua Pond is so you don't have to walk an extra distance to get there.</p>
+<p style="font-family:arial; padding-right:160px;padding-left:45px;">The buses that stop there are: 184, 187, 190, 700, 700A, 970, 973.</p>
+
+<h2 style="font-family:arial rounded mt bold;padding-left:45px;">By LRT &#128669</h2>
+<p style="font-family:arial;padding-left:45px;">The nearest LRT station is <strong>Senja LRT</strong>. It would take about <strong> 13 minutes</strong> to walk 850m to get there.</p>
+
+<h2 style="font-family:arial rounded mt bold;padding-left:45px;">If You Are Driving</h2>
+<p style="font-family:arial;padding-left:45px;">Unfortunately, there is no parking specifically for Pang Sua Pond. You can park at the residence nearby (Block 542-545) or at Bukit Panjang Plaza.</p>
+
+<h2 style="font-family:arial rounded mt bold;padding-left:45px;">Click on this interactive image of the map to see how long it would take to get to Pang Sua Pond from different places!</h2>
+<p style="font-family:arial;padding-left:45px;font-size:12px">Image taken from Google Maps.</p>
+<img src="media/imgmap.jpg" width=50% border="1" class="center" usemap="#workmap">
+
+<map name="workmap">
+  <area shape="circle" coords="33,154,15" alt="From KJE" a href="https://www.google.com/maps/dir/1.386751,103.756674/101+Bukit+Panjang+Ring+Road,+Pang+Sua+Pond,+679910/@1.3827883,103.7604324,16.94z/data=!4m9!4m8!1m0!1m5!1m1!1s0x31da11a2ecb4a069:0xa1e19f2581837f97!2m2!1d103.7654725!2d1.3818769!3e0?hl=en" target="_blank">
+  <area shape="circle" coords="21,312,15" alt="From Teck Whye" a href="https://www.google.com/maps/dir/Teck+Whye/101+Bukit+Panjang+Ring+Road,+Pang+Sua+Pond,+679910/@1.3791721,103.7551149,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x31da11b8f314f4dd:0x539e54e2f725defa!2m2!1d103.753679!2d1.376673!1m5!1m1!1s0x31da11a2ecb4a069:0xa1e19f2581837f97!2m2!1d103.7654725!2d1.3818769!3e0?hl=en" target="_blank">
+  <area shape="circle" coords="75,346,15" alt="From Bukit Panjang MRT/LRT" a href="https://www.google.com/maps/dir/Bukit+Panjang/101+Bukit+Panjang+Ring+Road,+Pang+Sua+Pond,+679910/@1.3802405,103.7624335,18z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x31da11bb5e5efcd3:0xa8a5a73957ea9ea5!2m2!1d103.761432!2d1.3786042!1m5!1m1!1s0x31da11a2ecb4a069:0xa1e19f2581837f97!2m2!1d103.7654725!2d1.3818769!3e2?hl=en" target="_blank">
+  <area shape="circle" coords="157,414,15" alt="From Upper Bukit Timah Road" a href="https://www.google.com/maps/dir/1.363793,103.767769/101+Bukit+Panjang+Ring+Road,+Pang+Sua+Pond,+679910/@1.373887,103.7545242,15.03z/data=!4m9!4m8!1m0!1m5!1m1!1s0x31da11a2ecb4a069:0xa1e19f2581837f97!2m2!1d103.7654725!2d1.3818769!3e0?hl=en" target="_blank">
+  <area shape="circle" coords="275,370,15" alt="From Hillion Mall" a href="https://www.google.com/maps/dir/Petir+Road,+Hillion+Mall,+Singapore/101+Bukit+Panjang+Ring+Road,+Pang+Sua+Pond,+679910/@1.3799175,103.7625697,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x31da11a4adc0c1ff:0xb693f9308fdfba68!2m2!1d103.7630439!2d1.3779581!1m5!1m1!1s0x31da11a2ecb4a069:0xa1e19f2581837f97!2m2!1d103.7654725!2d1.3818769!3e2?hl=en" target="_blank">
+  <area shape="circle" coords="320,207,15" alt="From Bukit Panjang Plaza" a href="https://www.google.com/maps/dir/Jelebu+Road,+Bukit+Panjang+Plaza,+Singapore/101+Bukit+Panjang+Ring+Road,+Pang+Sua+Pond,+679910/@1.3809598,103.7623884,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x31da11a33713797b:0xf2c4ae50985b91af!2m2!1d103.7642332!2d1.3800428!1m5!1m1!1s0x31da11a2ecb4a069:0xa1e19f2581837f97!2m2!1d103.7654725!2d1.3818769!3e2?hl=en" target="_blank">
+  <area shape="circle" coords="465,170,15" alt="From Bus Stop Opp Lompang Road" a href="https://www.google.com/maps/dir/Opp+Lompang+Rd/101+Bukit+Panjang+Ring+Road,+Pang+Sua+Pond,+679910/@1.3814943,103.7633007,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x31da11a2fcc9ad51:0x42890730b9d4f39e!2m2!1d103.765862!2d1.381174!1m5!1m1!1s0x31da11a2ecb4a069:0xa1e19f2581837f97!2m2!1d103.7654725!2d1.3818769!3e2?hl=en" target="_blank">
+  <area shape="circle" coords="626,280,15" alt="From BKE (Woodlands)" a href="https://www.google.com/maps/dir/1.375499,103.776465/101+Bukit+Panjang+Ring+Road,+Pang+Sua+Pond,+679910/@1.3784966,103.7643738,16z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x31da11a2ecb4a069:0xa1e19f2581837f97!2m2!1d103.7654725!2d1.3818769!3e0?hl=en" target="_blank">
+  <area shape="circle" coords="168,70,15" alt="From Senja LRT" a href="https://www.google.com/maps/dir/Bukit+Panjang+Ring+Road,+Senja+Lrt,+Singapore/101+Bukit+Panjang+Ring+Road,+Pang+Sua+Pond,+679910/@1.3818778,103.7628725,18z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x31da11bd5d4876b3:0x3abf88e21efcc381!2m2!1d103.76231!2d1.382722!1m5!1m1!1s0x31da11a2ecb4a069:0xa1e19f2581837f97!2m2!1d103.7654725!2d1.3818769!3e2?hl=en" target="_blank">
+</map>
+
+<h4 style="font-family:arial rounded mt bold;padding-left:45px;">Here's a Google Map location of it for you to search how to get there from your location.</h4>
+
+<iframe style="padding-left:45px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6579529380147!2d103.76328381463846!3d1.3818768989921686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da11a2ecb4a069%3A0xa1e19f2581837f97!2sPang%20Sua%20Pond!5e0!3m2!1sen!2ssg!4v1586278943398!5m2!1sen!2ssg" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+<img id="mycat" title="source:pusheen.com" src="media/search.gif" width=18%>
+
+</body>
+
+</html>
